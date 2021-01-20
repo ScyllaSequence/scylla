@@ -44,14 +44,14 @@
   --line-height: 1.618;
 
   /* Default (light) theme */
-  --bg: #FFF;
-  --accent-bg: #F5F7FF;
-  --text: #212121;
-  --text-light: #585858;
-  --border: #ff0092;
-  --accent: #ff0092;
-  --accent-light: #90CAF9;
-  --code: #D81B60;
+  --bg: #212121;
+    --accent-bg: #2B2B2B;
+    --text: #DCDCDC;
+    --text-light: #ABABAB;
+    --border: #ff0092;
+    --accent: #ff0092;
+    --accent-light: #FFECB3;
+    --code: #F06292;
 }
 
 /* Dark theme */
