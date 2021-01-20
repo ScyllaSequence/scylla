@@ -363,7 +363,7 @@ code,
 pre,
 kbd,
 samp {
-	font-family: var(--mono-font);
+	font-family: monospace;
   color: var(--code);
 }
 
@@ -755,7 +755,7 @@ code,
 pre,
 kbd,
 samp {
-	font-family: var(--mono-font);
+	font-family: monospace;
   color: var(--code);
 }
 
