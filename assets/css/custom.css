@@ -74,7 +74,7 @@
 
 * {
   /* Set the font globally */
-  font-family: var(--mono-font);
+  font-family: 'Hack', monospace;
 }
 
 html {
@@ -391,7 +391,7 @@ code,
 pre,
 kbd,
 samp {
-	font-family: monospace;
+	font-family: 'Hack', monospace;
   color: var(--code);
 }
 
@@ -466,7 +466,7 @@ pre code {
 
 * {
   /* Set the font globally */
-  font-family: var(--mono-font);
+  font-family: 'Hack', monospace;
 }
 
 html {
@@ -783,7 +783,7 @@ code,
 pre,
 kbd,
 samp {
-	font-family: monospace;
+	font-family: 'Hack', monospace;
   color: var(--code);
 }
 
