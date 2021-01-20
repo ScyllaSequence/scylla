@@ -2,9 +2,37 @@
 /* Set the global variables for everything. Change these to use your own fonts/colours. */
 :root {
 
+  @font-face {
+    font-family: 'Hack';
+    src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-regular.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-regular.woff?sha=3114f1256') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Hack';
+    src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-bold.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bold.woff?sha=3114f1256') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Hack';
+    src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-italic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-italic.woff?sha=3114f1256') format('woff');
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Hack';
+    src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bolditalic.woff?sha=3114f1256') format('woff');
+    font-weight: 700;
+    font-style: italic;
+  }
+
   /* Set sans-serif & mono fonts */
   --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
-  --mono-font: monospace;
+  --mono-font: Hack, monospace;
 
   /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
   --base-fontsize: 1.15rem;
@@ -396,7 +424,7 @@ pre code {
 
   /* Set sans-serif & mono fonts */
   --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --mono-font: Hack, monospace;
 
   /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
   --base-fontsize: 1.15rem;
