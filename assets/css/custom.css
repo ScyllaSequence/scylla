@@ -2,33 +2,7 @@
 /* Set the global variables for everything. Change these to use your own fonts/colours. */
 :root {
 
-  @font-face {
-    font-family: 'Hack';
-    src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-regular.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-regular.woff?sha=3114f1256') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
 
-  @font-face {
-    font-family: 'Hack';
-    src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-bold.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bold.woff?sha=3114f1256') format('woff');
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Hack';
-    src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-italic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-italic.woff?sha=3114f1256') format('woff');
-    font-weight: 400;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: 'Hack';
-    src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bolditalic.woff?sha=3114f1256') format('woff');
-    font-weight: 700;
-    font-style: italic;
-  }
 
   /* Set sans-serif & mono fonts */
   --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
@@ -53,7 +27,33 @@
     --accent-light: #FFECB3;
     --code: #F06292;
 }
+@font-face {
+  font-family: 'Hack';
+  src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-regular.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-regular.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Hack';
+  src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-bold.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bold.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-italic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-italic.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('https://determined-gates-5bef4a.netlify.app/assets/fonts/hack/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bolditalic.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
